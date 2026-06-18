@@ -7,8 +7,8 @@ library(rpart.plot)
 
 library(caret)
 library(nnet)
-
-star_class1 <- read.csv("C:/Users/javie/OneDrive/Master Business Intelligence + Big Data/TRABAJO FINAL MASTER/DRSS17/star_class2.csv")
+# NOTA: Asegúrese de descargar el dataset desde Kaggle (enlace en el README)
+star_class1 <- read.csv("star_class2.csv")
 summary(star_class1)
 star_class1$Class <- factor(star_class1$Class)
 
