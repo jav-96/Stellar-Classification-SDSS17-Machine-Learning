@@ -7,8 +7,10 @@ Estructura del código: Script 1: PCA_STAR_CLASS - Construcción del modelo PCA.
 El dataset base se encuentra en Kaggle en el siguiente enlace:
 https://www.kaggle.com/fedesoriano/stellar-classification-dataset-sdss17
 
-No se sube el archivo csv utilizado debido al peso (100,000 registros).
-Sin embargo es importante resaltar que se hicieron las siguientes modificaciones al dataset en la limpieza de datos:
+El dataset con ligeras pasos de limpieza y transformación se encuentra en el siguiente enlace:
+https://drive.google.com/file/d/1KKxhz1kP3EeLcUEepkyScJSv0GUvtFbt/view?usp=sharing
+
+A continuación se detallan un poco más sobre algunos pasos de limpieza y transformación que se realizaron:
 Cambio de QSO a CUASAR - CAMBIO NECESARIO PARA QUE NO DE ERROR EL MODELO
 Eliminación de un valor anómalo de 99999 en las variables u-g-z
 Renombres de diferentes columnas que finalmente no se ocupan en el modelo. 
