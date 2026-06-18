@@ -4,8 +4,8 @@ library(DMwR2)
 library(randomForest)
 library(ROCR)
 library(caret)
-
-sdss.og <- read.csv("C:/Users/javie/OneDrive/Master Business Intelligence + Big Data/TRABAJO FINAL MASTER/DRSS17/star_class2.csv")
+# NOTA: Asegúrese de descargar el dataset desde Kaggle (enlace en el README)
+sdss.og <- read.csv("star_class2.csv")
 sdss.og$Class <- factor(sdss.og$Class)
 
 variables_validas <- c("u","g","r","i","z","Redshift","Class")
