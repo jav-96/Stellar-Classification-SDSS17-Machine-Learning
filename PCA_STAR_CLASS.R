@@ -1,5 +1,6 @@
 #Paso 1 - Carga de datos
-sdss.og <- read.csv("C:/Users/javie/OneDrive/Master Business Intelligence + Big Data/TRABAJO FINAL MASTER/DRSS17/star_class2.csv")
+# NOTA: Asegúrese de descargar el dataset desde Kaggle (enlace en el README)
+sdss.og <- read.csv("star_class2.csv")
 #Paso 2 - Variable categórica
 sdss.og$Class <- factor(sdss.og$Class)
 #Paso 3 - Se seleccionan las variables validas para el modelo y se crea un nuevo dataset
